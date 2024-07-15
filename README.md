@@ -1,6 +1,6 @@
 **Step 1**
 --
-1 . Git clone in cmd
+1 . Git clone in Terminal
 ```
 git clone https://github.com/Aimannawal/Shooting-Game.git
 ```
