@@ -1,7 +1,14 @@
 const canvas = document.getElementById('gameCanvas');
 const context = canvas.getContext('2d');
-canvas.width = 400;
-canvas.height = 300;
+
+function resizeCanvas() {
+    const aspectRatio = 4 / 3; // Original aspect ratio (400 / 300)
+    canvas.width = Math.min(window.innerWidth * 0.9, 400);
+    canvas.height = canvas.width / aspectRatio;
+}
+
+resizeCanvas();
+window.addEventListener('resize', resizeCanvas);
 
 let score = 0;
 let targets = [];

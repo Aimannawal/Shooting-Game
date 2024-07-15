@@ -18,7 +18,7 @@ button {
     color: #ffffff;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1em;
     cursor: pointer;
     margin: 20px;
     border-radius: 5px;
@@ -34,11 +34,13 @@ canvas {
     border: 3px solid #4B70F5;
     display: block;
     margin: 20px auto;
+    max-width: 90%;
+    height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 p {
-    font-size: 24px;
+    font-size: 1.5em;
     margin: 20px 0;
     color: #333333;
 }
@@ -46,4 +48,16 @@ p {
 .hidden {
     display: none;
 }
-  
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    button {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+}
