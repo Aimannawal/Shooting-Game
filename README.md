@@ -2,6 +2,10 @@
 --
 1 . Git clone in cmd
 ```
-laravel blade snippets, laravel snippet, dan php dari devsense
+git clone https://github.com/Aimannawal/Shooting-Game.git
 ```
-2 . start index.html
+2 . Go to folder
+```
+cd Shooting-Game
+```
+3. Now you can start the Shooting Game
